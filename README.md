@@ -1,4 +1,4 @@
-This is a script I wrote for Ubuntu to install Plex Home Theater as an appliance. It will support LightDM or Systemd with the latter being the preferred method for a more simplistic and lightweight system.
+This is a bash script I wrote for Ubuntu to install Plex Home Theater as an appliance. It will support LightDM or Systemd with the latter being the preferred method for a more simplistic and lightweight system.
 
 
 TO-DO
