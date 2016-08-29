@@ -586,8 +586,8 @@ if [[ -n ${HDMI} ]]; then
     echo "HDMI is not used so fix does not apply"
 fi
 
-XORGCONF="/etc/X11/xorg.conf.d/20-intel.conf"
 XORGCONFDIR="/etc/X11/xorg.conf.d/"
+XORGCONF="${XORGCONFDIR}/20-intel.conf"
 XORGPATCH=$(cat << 'EOF'
 Section "Device"
 Identifier "Intel Graphics"
